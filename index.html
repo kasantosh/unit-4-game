@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Crystal Collector | Unit 4 Game</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js
+    "></script>
+    <style></style>
+  </head>
+  <body>
+    <header>
+      <h1>Crystal Collector</h1>
+    </header>
+
+    <div id="container">
+      <p id="para1">
+        You will be given a random number at the start of the game. There are
+        four crystals below. By clicking on a specific crystal you will add a
+        specific amount of points to your score. You will win the game by
+        matching your total score to the random number. You lose the game if
+        your score goes above the random number.
+      </p>
+      <div class="scoresDiv">
+        <!--Random Number and user Score-->
+        <div id="randomNumber">0</div>
+        <div id="userScore">
+          <div>Wins:</div>
+          <div>Losses:</div>
+        </div>
+      </div>
+      <br />
+      <p id="infotext">[Click on the gem stones below to score]</p>
+      <div class="gemGroup">
+        <!-- gem stones group-->
+        <div id="diamond"><img src="./assets/images/diamond.png" /></div>
+        <div id="emerald"><img src="./assets/images/emerald.png" /></div>
+        <div id="saphire"><img src="./assets/images/saphire.png" /></div>
+        <div id="ruby"><img src="./assets/images/ruby.png" /></div>
+      </div>
+      <br />
+      <div id="totalScoreBlock">
+        <div id="totalScoreText">Your total score is:</div>
+        <div id="totalScore">0</div>
+      </div>
+      <!--last div-->
+    </div>
+    <script src="./assets/javascript/game.js"></script>
+  </body>
+</html>
